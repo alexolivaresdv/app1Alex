@@ -11,12 +11,22 @@ package app1alex;
  */
 public class App1Alex 
 {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
+    public static void main(String[]args)
+    {
+    int numero;//declaracion de variable tipo entero 
+    double numero2;//Declaracion variable tipo double 
+    String name;//Aqui guardaremos texto 
+        
+       numero=55;
+       numero2=2.3;
+       name="Mi Primer Programa";
+       
+       System.out.println("Suma de numero y numero2:"+(numero+numero2)+"\n");
+       System.out.println("Resta de numero y numero2:"+(numero-numero2)+"\n");
+       System.out.println("Multiplicar de numero y numero2:"+(numero*numero2)+"\n");
+       System.out.println("Division de numero y numero2:"+(numero/numero2)+"\n");
+       System.out.println("Resto de numero y numero2:"+(numero%numero2)+"\n");
+       System.out.println("Calculadora \t"+name);
     }
     
 }
